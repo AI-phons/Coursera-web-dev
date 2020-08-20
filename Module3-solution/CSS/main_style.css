@@ -1,0 +1,101 @@
+h1{
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    margin: 1em 1em 1em 1em;
+    font-size:45px;
+}
+
+h2{
+    font-size:50px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color:#f09b95;
+    margin:0;
+    clear:both;
+}
+
+h3{
+    font-family: 'Pacifico', cursive;
+    font-size:20px;
+}
+
+p{
+    font-family: 'Pacifico', cursive;
+    text-indent:1.5em;
+    margin:0.25em;
+}
+
+.border{
+    padding:15px;
+    margin-bottom:1em;
+}
+
+.cite{
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom:5em;
+}
+
+.navbar{
+    font-weight: bold;
+    padding-left:1em;
+}
+
+#name{
+    margin-top:0.5em;
+    float:left;
+}
+
+.navbar-light .navbar-brand{
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar-toggler:focus{
+    background-color:rgb(251, 255, 0);
+}
+
+.navbar-light .navbar-toggler {
+    border: 2px solid white;
+}
+
+.bg-custom{
+    background-color:#f09b95;
+}
+
+#seperator{
+    background-color:white;
+    height:1px;
+    width:20%;
+    margin:auto;
+}
+
+.bg-selection{
+    background-color:#eebeba;
+}
+
+@media (min-width: 576px) {
+    .visible {
+        visibility: hidden !important;
+}
+}
+.logo{
+    height:50px;
+    width:50px;
+    float:left;
+    margin-left:0.5em;
+}
+
+svg{
+    color:#f09b95;
+    margin-bottom:0.5em;
+}
+
+.back-to-top:hover{
+    color:#fa3c2e;
+    width:2.5em;
+    height:2.5em;
+}
+
+.shop:hover{
+    color:#fa3c2e;
+}
